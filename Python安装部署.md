@@ -22,8 +22,7 @@ conda config --set show_channel_urls yes
 ## PIP镜像
 
 ```
-#每次安装后面加上
--i https://pypi.tuna.tsinghua.edu.cn/simple 
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 
